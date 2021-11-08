@@ -3,6 +3,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      gap: {
+        72: "18rem",
+        84: "21rem",
+        98: "26rem",
+        100: "28rem",
+        102: "30rem",
+        1920: "120rem",
+      },
       colors: {
         "pattens-blue": {
           50: "#fdffff",
