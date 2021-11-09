@@ -3,7 +3,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import upi from "../assets/upi.png";
 import logo from "../assets/logo.png";
-import home from "../assets/home.svg";
+import home1 from "../assets/home1.svg";
 import scan from "../assets/scan.svg";
 import cashback from "../assets/cashback.svg";
 import passbook from "../assets/passbook.svg";
@@ -26,8 +26,8 @@ export const Paytm = () => {
           <div className="text-xs">Share</div>
         </div>
       </div>
-      <div className="flex justify-center items-center rounded-lg bg-pattens-blue-500">
-        <div className="">
+      <div className="flex justify-center items-center">
+        <div className="rounded-lg bg-pattens-blue-500">
           <div className="flex justify-center">
             <div className="flex justify-center items-center border-heliotrope-500 border-2 text-white bg-heliotrope-500 rounded-full h-16 w-16">
               BM
@@ -67,6 +67,8 @@ export const Paytm = () => {
               Pay Again
             </div>
           </div>
+          <div className="border-b-8 border-picton-blue-500"></div>
+          <div className="border-b-8 border-deep-sapphire-500 rounded-b-lg"></div>
         </div>
       </div>
 
@@ -87,7 +89,7 @@ export const Paytm = () => {
       <div className=" flex rounded-full bg-deep-sapphire-500 text-white py-3">
         <div className="flex-1">
           <div className="flex justify-center">
-            <img src={home} width="33" height="100"></img>
+            <img src={home1} width="30" height="100"></img>
           </div>
           <div className="flex justify-center text-xs text-white mt-2">
             Home
@@ -95,7 +97,7 @@ export const Paytm = () => {
         </div>
         <div className="flex-1">
           <div className="flex justify-center">
-            <img src={scan} width="30" height="100"></img>
+            <img src={scan} width="25" height="100"></img>
           </div>
           <div className="flex justify-center text-xs text-white mt-2">
             Scan
@@ -103,7 +105,7 @@ export const Paytm = () => {
         </div>
         <div className="flex-1">
           <div className="flex justify-center">
-            <img src={cashback} width="40" height="100"></img>
+            <img src={cashback} width="30" height="100"></img>
           </div>
           <div className="flex justify-center text-xs text-white mt-2">
             Cashback
@@ -111,7 +113,7 @@ export const Paytm = () => {
         </div>
         <div className="flex-1">
           <div className="flex justify-center">
-            <img src={passbook} width="20" height="100"></img>
+            <img src={passbook} width="18" height="100"></img>
           </div>
           <div className="flex justify-center text-xs text-white mt-2">
             Passbook
