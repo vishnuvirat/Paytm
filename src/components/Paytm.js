@@ -34,7 +34,7 @@ export const Paytm = () => {
             </div>
           </div>
           <div className="flex justify-center font-bold text-2xl p-1">
-            Babban mandal
+            Vishnu
           </div>
           <div className="flex justify-center">
             <div>
