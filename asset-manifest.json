@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Paytm/static/css/main.2841b38f.chunk.css",
-    "main.js": "/Paytm/static/js/main.61371b5d.chunk.js",
-    "main.js.map": "/Paytm/static/js/main.61371b5d.chunk.js.map",
+    "main.css": "/Paytm/static/css/main.4a707b9d.chunk.css",
+    "main.js": "/Paytm/static/js/main.8bac50c4.chunk.js",
+    "main.js.map": "/Paytm/static/js/main.8bac50c4.chunk.js.map",
     "runtime-main.js": "/Paytm/static/js/runtime-main.64204e37.js",
     "runtime-main.js.map": "/Paytm/static/js/runtime-main.64204e37.js.map",
     "static/js/2.95bc1728.chunk.js": "/Paytm/static/js/2.95bc1728.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0eec00cd.chunk.js": "/Paytm/static/js/3.0eec00cd.chunk.js",
     "static/js/3.0eec00cd.chunk.js.map": "/Paytm/static/js/3.0eec00cd.chunk.js.map",
     "index.html": "/Paytm/index.html",
-    "static/css/main.2841b38f.chunk.css.map": "/Paytm/static/css/main.2841b38f.chunk.css.map",
+    "static/css/main.4a707b9d.chunk.css.map": "/Paytm/static/css/main.4a707b9d.chunk.css.map",
     "static/js/2.95bc1728.chunk.js.LICENSE.txt": "/Paytm/static/js/2.95bc1728.chunk.js.LICENSE.txt",
     "static/media/cashback.8f28ff1a.svg": "/Paytm/static/media/cashback.8f28ff1a.svg",
     "static/media/home1.c921cec3.svg": "/Paytm/static/media/home1.c921cec3.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.64204e37.js",
     "static/js/2.95bc1728.chunk.js",
-    "static/css/main.2841b38f.chunk.css",
-    "static/js/main.61371b5d.chunk.js"
+    "static/css/main.4a707b9d.chunk.css",
+    "static/js/main.8bac50c4.chunk.js"
   ]
 }
