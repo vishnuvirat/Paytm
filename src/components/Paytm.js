@@ -12,12 +12,12 @@ import { RiFlashlightFill } from "react-icons/ri";
 export const Paytm = () => {
   return (
     <div
-      style={{ height: "544px", width: "254px" }}
-      className="border border-black"
+      style={{ height: "", width: "" }}
+      className=""
     >
       <div>
         <div className="flex justify-center p-2">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center ml-2">
             <FaArrowLeft size="1em" />
           </div>
           <div className="flex flex-1 justify-center">
@@ -35,7 +35,7 @@ export const Paytm = () => {
       </div>
       <div className="flex justify-center items-center">
         <div
-          style={{ width: "240px" }}
+          style={{ width: "320px" }}
           className="rounded-lg bg-pattens-blue-500"
         >
           <div className="flex justify-center mt-6">
@@ -44,7 +44,7 @@ export const Paytm = () => {
             </div>
           </div>
           <div className="flex justify-center font-bold text-2xl p-1">
-            Babban Mandal
+            Nikil kanaparthi
           </div>
           <div className="flex justify-center items-center">
             <div className="mr-2">
@@ -55,7 +55,7 @@ export const Paytm = () => {
           </div>
           <div className="flex text-5xl font-bold justify-center">
             <div>&#x20b9;</div>
-            <div className="ml-3">30</div>
+            <div className="ml-3">30000</div>
             <div></div>
           </div>
           <div className="font-bold flex justify-center my-2">
@@ -84,14 +84,14 @@ export const Paytm = () => {
 
       <div className="flex justify-center items-center">
         <div
-          style={{ width: "240px" }}
+          style={{ width: "320px" }}
           className="border rounded-lg border-gray-200 mt-4 mb-10"
         >
           <div className="flex p-2">
             <div className="text-picton-blue-500 mt-1">
               <RiFlashlightFill />
             </div>
-            <div style={{ width: "400px" }}>
+            <div style={{ width: "" }}>
               Your payment took less than 3 seconds Invite your friends to the
               blazing fast paytm UPI experience and earn $100 cashback
             </div>
@@ -101,7 +101,7 @@ export const Paytm = () => {
           </div>
         </div>
       </div>
-      <div className=" flex rounded-full bg-deep-sapphire-500 text-white p-1 justify-center items-center">
+      <div className=" flex rounded-full bg-deep-sapphire-500 text-white p-1 justify-center items-center mx-5">
         <div className="flex-1 p-1">
           <div className="flex justify-center">
             <img src={home1} width="25" height="100"></img>
