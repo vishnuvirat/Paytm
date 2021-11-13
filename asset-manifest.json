@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Paytm/static/css/main.2841b38f.chunk.css",
-    "main.js": "/Paytm/static/js/main.5292d886.chunk.js",
-    "main.js.map": "/Paytm/static/js/main.5292d886.chunk.js.map",
+    "main.js": "/Paytm/static/js/main.02f27063.chunk.js",
+    "main.js.map": "/Paytm/static/js/main.02f27063.chunk.js.map",
     "runtime-main.js": "/Paytm/static/js/runtime-main.64204e37.js",
     "runtime-main.js.map": "/Paytm/static/js/runtime-main.64204e37.js.map",
     "static/js/2.95bc1728.chunk.js": "/Paytm/static/js/2.95bc1728.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.64204e37.js",
     "static/js/2.95bc1728.chunk.js",
     "static/css/main.2841b38f.chunk.css",
-    "static/js/main.5292d886.chunk.js"
+    "static/js/main.02f27063.chunk.js"
   ]
 }
