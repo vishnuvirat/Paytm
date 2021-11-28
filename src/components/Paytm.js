@@ -8,13 +8,18 @@ import scan from "../assets/scan.svg";
 import cashback from "../assets/cashback.svg";
 import passbook from "../assets/passbook.svg";
 import { RiFlashlightFill } from "react-icons/ri";
+import { useState } from "react";
 
-export const Paytm = () => {
+
+export const Paytm = ({
+  username,
+  upid,
+  amount,
+  gotoHome
+}) => {
+  const [back, setBack] = useState("");
   return (
-    <div
-      style={{ height: "", width: "" }}
-      className=""
-    >
+    <div> 
       <div>
         <div className="flex justify-center p-2">
           <div className="flex justify-center items-center ml-2">
@@ -44,18 +49,18 @@ export const Paytm = () => {
             </div>
           </div>
           <div className="flex justify-center font-bold text-2xl p-1">
-            Nikil kanaparthi
+            {username}
           </div>
           <div className="flex justify-center items-center">
             <div className="mr-2">
               <img src={upi} width="12" height="12" />
             </div>
             <div>UPI ID:</div>
-            <div className="ml-2">9603641512@ybl</div>
+            <div className="ml-2">{upid}@ybl</div>
           </div>
           <div className="flex text-5xl font-bold justify-center">
             <div>&#x20b9;</div>
-            <div className="ml-3">30000</div>
+            <div className="ml-3">{amount}</div>
             <div></div>
           </div>
           <div className="font-bold flex justify-center my-2">
@@ -135,6 +140,7 @@ export const Paytm = () => {
           </div>
         </div>
       </div>
+      <button type="button" onClick={gotoHome} >Back</button>
     </div>
   );
 };
