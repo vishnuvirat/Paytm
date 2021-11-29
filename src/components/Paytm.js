@@ -10,7 +10,8 @@ import passbook from "../assets/passbook.svg";
 import { RiFlashlightFill } from "react-icons/ri";
 import animation from "../assets/videos/animation.mp4";
 
-export const Paytm = ({ username, upid, amount, gotoHome }) => {
+export const Paytm = ({ username, upid, amount, gotoHome, currTime, currDate, currMonth, playSound }) => {
+
   return (
     <div>
       <div>
@@ -52,7 +53,7 @@ export const Paytm = ({ username, upid, amount, gotoHome }) => {
             <div className="flex text-4xl font-bold justify-center">
               <div>&#x20b9;</div>
               <div className="ml-3">{amount}</div>
-              <div className="flex justify-center items-center ml-2">
+              <div className="flex justify-center items-center ml-2">{playSound}
                 <video
                   autoPlay
                   loop
@@ -70,8 +71,8 @@ export const Paytm = ({ username, upid, amount, gotoHome }) => {
               PAYMENT SUCCESSFUL
             </div>
             <div className="flex text-xs justify-center my-2">
-              <div>24 Oct,</div>
-              <div className="ml-1">01:41 PM</div>
+              <div>{currDate} {currMonth},</div>
+              <div className="ml-1">{currTime}</div>
             </div>
             <div className="flex text-picton-blue-500 justify-center">
               <div>Ref. No.</div>
