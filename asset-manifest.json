@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/Paytm/static/css/main.64cd80c9.chunk.css",
-    "main.js": "/Paytm/static/js/main.04756e05.chunk.js",
-    "main.js.map": "/Paytm/static/js/main.04756e05.chunk.js.map",
-    "runtime-main.js": "/Paytm/static/js/runtime-main.8770c7e6.js",
-    "runtime-main.js.map": "/Paytm/static/js/runtime-main.8770c7e6.js.map",
-    "static/js/2.cd2d18f7.chunk.js": "/Paytm/static/js/2.cd2d18f7.chunk.js",
-    "static/js/2.cd2d18f7.chunk.js.map": "/Paytm/static/js/2.cd2d18f7.chunk.js.map",
-    "static/js/3.531d680a.chunk.js": "/Paytm/static/js/3.531d680a.chunk.js",
-    "static/js/3.531d680a.chunk.js.map": "/Paytm/static/js/3.531d680a.chunk.js.map",
+    "main.css": "/Paytm/static/css/main.33660eec.chunk.css",
+    "main.js": "/Paytm/static/js/main.d21eae2e.chunk.js",
+    "main.js.map": "/Paytm/static/js/main.d21eae2e.chunk.js.map",
+    "runtime-main.js": "/Paytm/static/js/runtime-main.a235387f.js",
+    "runtime-main.js.map": "/Paytm/static/js/runtime-main.a235387f.js.map",
+    "static/js/2.7ce9d587.chunk.js": "/Paytm/static/js/2.7ce9d587.chunk.js",
+    "static/js/2.7ce9d587.chunk.js.map": "/Paytm/static/js/2.7ce9d587.chunk.js.map",
+    "static/js/3.62a7433b.chunk.js": "/Paytm/static/js/3.62a7433b.chunk.js",
+    "static/js/3.62a7433b.chunk.js.map": "/Paytm/static/js/3.62a7433b.chunk.js.map",
+    "static/js/4.2ddd83a8.chunk.js": "/Paytm/static/js/4.2ddd83a8.chunk.js",
+    "static/js/4.2ddd83a8.chunk.js.map": "/Paytm/static/js/4.2ddd83a8.chunk.js.map",
     "index.html": "/Paytm/index.html",
-    "static/css/main.64cd80c9.chunk.css.map": "/Paytm/static/css/main.64cd80c9.chunk.css.map",
-    "static/js/2.cd2d18f7.chunk.js.LICENSE.txt": "/Paytm/static/js/2.cd2d18f7.chunk.js.LICENSE.txt",
+    "static/css/main.33660eec.chunk.css.map": "/Paytm/static/css/main.33660eec.chunk.css.map",
+    "static/js/2.7ce9d587.chunk.js.LICENSE.txt": "/Paytm/static/js/2.7ce9d587.chunk.js.LICENSE.txt",
+    "static/js/3.62a7433b.chunk.js.LICENSE.txt": "/Paytm/static/js/3.62a7433b.chunk.js.LICENSE.txt",
+    "static/media/animation.61d2703e.mp4": "/Paytm/static/media/animation.61d2703e.mp4",
     "static/media/cashback.8f28ff1a.svg": "/Paytm/static/media/cashback.8f28ff1a.svg",
     "static/media/home1.c921cec3.svg": "/Paytm/static/media/home1.c921cec3.svg",
     "static/media/passbook.6879dffa.svg": "/Paytm/static/media/passbook.6879dffa.svg",
@@ -19,9 +23,9 @@
     "static/media/upi.5f7ae3ca.png": "/Paytm/static/media/upi.5f7ae3ca.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8770c7e6.js",
-    "static/js/2.cd2d18f7.chunk.js",
-    "static/css/main.64cd80c9.chunk.css",
-    "static/js/main.04756e05.chunk.js"
+    "static/js/runtime-main.a235387f.js",
+    "static/js/2.7ce9d587.chunk.js",
+    "static/css/main.33660eec.chunk.css",
+    "static/js/main.d21eae2e.chunk.js"
   ]
 }
