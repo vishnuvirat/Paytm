@@ -149,3 +149,5 @@ export const Paytm = ({ username, upid, amount, gotoHome }) => {
     </div>
   );
 };
+
+
