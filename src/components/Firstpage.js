@@ -1,35 +1,33 @@
 import React from "react";
 import { useState } from "react";
 
+export const Firstpage = ({
+  gotoPaytm,
+  setUserRegistration,
+  userRegistration,
+}) => {
 
 
+  const [records, setRecords] = useState([]);
 
+  const handleInput = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    console.log(name, value);
 
-export const Firstpage = ({gotoPaytm, setUserRegistration, userRegistration}) => {
+    setUserRegistration({ ...userRegistration, [name]: value });
+  };
 
-    
-    
-    const [records, setRecords] = useState([]);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newRecord = { ...userRegistration };
+    console.log(records);
 
-    
-    const handleInput = (e) => {
-        const name = e.target.name;
-        const value = e.target.value;
-        console.log(name,value);
-    
-        setUserRegistration({ ...userRegistration, [name] : value});
-    };
-    
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const newRecord = {...userRegistration}
-        console.log(records);
-    
-        setRecords([...records, newRecord]);
-        console.log(records);
-    
-        setUserRegistration({username:"", upi:"", amount:""});
-    }
+    setRecords([...records, newRecord]);
+    console.log(records);
+
+    setUserRegistration({ username: "", upid: "", amount: "" });
+  };
 
   return (
     <div>
@@ -50,8 +48,8 @@ export const Firstpage = ({gotoPaytm, setUserRegistration, userRegistration}) =>
           type="text"
           autoComplete="off"
           value={userRegistration.upi}
-          name="upi"
-          id="upi"
+          name="upid"
+          id="upid"
           onChange={handleInput}
         ></input>
       </div>
@@ -66,9 +64,8 @@ export const Firstpage = ({gotoPaytm, setUserRegistration, userRegistration}) =>
           onChange={handleInput}
         ></input>
       </div>
-      <button onClick={gotoPaytm}>
-        Submit
-      </button>
+      <button onClick={gotoPaytm}>Submit</button>
+      <button>sound</button>
     </div>
   );
 };

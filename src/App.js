@@ -1,19 +1,21 @@
 import "./App.css";
 import { Paytm } from "./components/Paytm";
 import { Firstpage } from "./components/Firstpage";
-import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
+import useSound from "use-sound";
 <script
   src="https://kit.fontawesome.com/fdbd25f3f6.js"
   crossorigin="anonymous"
 ></script>;
 
 function App() {
+  
+
   const [active, setActive] = useState("home");
 
   const [userRegistration, setUserRegistration] = useState({
     username: "",
-    upi: "",
+    upid: "",
     amount: "",
   });
 
@@ -30,7 +32,7 @@ function App() {
         <Paytm
           gotoHome={() => setActive("home")}
           amount={userRegistration.amount}
-          upi={userRegistration.upi}
+          upid={userRegistration.upid}
           username={userRegistration.username}
         />
       )}

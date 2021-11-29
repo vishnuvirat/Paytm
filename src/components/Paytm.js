@@ -8,18 +8,11 @@ import scan from "../assets/scan.svg";
 import cashback from "../assets/cashback.svg";
 import passbook from "../assets/passbook.svg";
 import { RiFlashlightFill } from "react-icons/ri";
-import { useState } from "react";
+import animation from "../assets/videos/animation.mp4";
 
-
-export const Paytm = ({
-  username,
-  upid,
-  amount,
-  gotoHome
-}) => {
-  const [back, setBack] = useState("");
+export const Paytm = ({ username, upid, amount, gotoHome }) => {
   return (
-    <div> 
+    <div>
       <div>
         <div className="flex justify-center p-2">
           <div className="flex justify-center items-center ml-2">
@@ -38,65 +31,75 @@ export const Paytm = ({
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center">
-        <div
-          style={{ width: "320px" }}
-          className="rounded-lg bg-pattens-blue-500"
-        >
-          <div className="flex justify-center mt-6">
-            <div className="flex justify-center items-center border-heliotrope-500 border-2 text-white bg-heliotrope-500 rounded-full h-16 w-16">
-              BM
+      <div>
+        <div className="flex justify-center items-center border border-black  bg-pattens-blue-500 mx-4 rounded-t-lg">
+          <div className="border border-black">
+            <div className="flex justify-center mt-6">
+              <div className="flex justify-center items-center border-heliotrope-500 border-2 text-white bg-heliotrope-500 rounded-full h-16 w-16">
+                BM
+              </div>
+            </div>
+            <div className="flex justify-center font-bold text-2xl p-1">
+              {username}
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="mr-2">
+                <img src={upi} width="12" height="12" />
+              </div>
+              <div>UPI ID:</div>
+              <div className="ml-2">{upid}@ybl</div>
+            </div>
+            <div className="flex text-4xl font-bold justify-center">
+              <div>&#x20b9;</div>
+              <div className="ml-3">{amount}</div>
+              <div className="flex justify-center items-center ml-2">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  style={{
+                    height: "30px",
+                    width: "30px",
+                  }}
+                >
+                  <source src={animation} type="video/mp4"></source>
+                </video>
+              </div>
+            </div>
+            <div className="font-bold flex justify-center my-2">
+              PAYMENT SUCCESSFUL
+            </div>
+            <div className="flex text-xs justify-center my-2">
+              <div>24 Oct,</div>
+              <div className="ml-1">01:41 PM</div>
+            </div>
+            <div className="flex text-picton-blue-500 justify-center">
+              <div>Ref. No.</div>
+              <div className="ml-2">129794891920</div>
+              <div className="flex items-center mx-2">
+                <FaAngleDown size="1em" />
+              </div>
+            </div>
+            <div className="flex justify-center py-6">
+              <div className="rounded-full py-2 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32">
+                Pay Again
+              </div>
             </div>
           </div>
-          <div className="flex justify-center font-bold text-2xl p-1">
-            {username}
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="mr-2">
-              <img src={upi} width="12" height="12" />
-            </div>
-            <div>UPI ID:</div>
-            <div className="ml-2">{upid}@ybl</div>
-          </div>
-          <div className="flex text-5xl font-bold justify-center">
-            <div>&#x20b9;</div>
-            <div className="ml-3">{amount}</div>
-            <div></div>
-          </div>
-          <div className="font-bold flex justify-center my-2">
-            PAYMENT SUCCESSFUL
-          </div>
-          <div className="flex text-xs justify-center my-2">
-            <div>24 Oct,</div>
-            <div className="ml-1">01:41 PM</div>
-          </div>
-          <div className="flex text-picton-blue-500 justify-center">
-            <div>Ref. No.</div>
-            <div className="ml-2">129794891920</div>
-            <div className="flex items-center mx-2">
-              <FaAngleDown size="1em" />
-            </div>
-          </div>
-          <div className="flex justify-center py-6">
-            <div className="rounded-full py-2 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32">
-              Pay Again
-            </div>
-          </div>
-          <div className="border-b-8 border-picton-blue-500"></div>
-          <div className="border-b-8 border-deep-sapphire-500 rounded-b-lg"></div>
         </div>
+        <div className="border-b-8 border-picton-blue-500 mx-4"></div>
+        <div className="border-b-8 border-deep-sapphire-500 rounded-b-lg mx-4"></div>
       </div>
 
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center border border-black">
         <div
-          style={{ width: "320px" }}
-          className="border rounded-lg border-gray-200 mt-4 mb-10"
+          className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4"
         >
           <div className="flex p-2">
             <div className="text-picton-blue-500 mt-1">
               <RiFlashlightFill />
             </div>
-            <div style={{ width: "" }}>
+            <div>
               Your payment took less than 3 seconds Invite your friends to the
               blazing fast paytm UPI experience and earn $100 cashback
             </div>
@@ -140,7 +143,9 @@ export const Paytm = ({
           </div>
         </div>
       </div>
-      <button type="button" onClick={gotoHome} >Back</button>
+      <button type="button" onClick={gotoHome}>
+        Back
+      </button>
     </div>
   );
 };
