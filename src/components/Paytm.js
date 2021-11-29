@@ -32,8 +32,8 @@ export const Paytm = ({ username, upid, amount, gotoHome }) => {
         </div>
       </div>
       <div>
-        <div className="flex justify-center items-center border border-black  bg-pattens-blue-500 mx-4 rounded-t-lg">
-          <div className="border border-black">
+        <div className="flex justify-center items-center bg-pattens-blue-500 mx-4 rounded-t-lg">
+          <div>
             <div className="flex justify-center mt-6">
               <div className="flex justify-center items-center border-heliotrope-500 border-2 text-white bg-heliotrope-500 rounded-full h-16 w-16">
                 BM
@@ -91,7 +91,7 @@ export const Paytm = ({ username, upid, amount, gotoHome }) => {
         <div className="border-b-8 border-deep-sapphire-500 rounded-b-lg mx-4"></div>
       </div>
 
-      <div className="flex justify-center items-center border border-black">
+      <div className="flex justify-center items-center">
         <div
           className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4"
         >
