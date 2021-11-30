@@ -112,53 +112,95 @@ export const Paytm = ({
           </div>
         </div>
       </div>
-      <div className=" flex rounded-full bg-deep-sapphire-500 text-white p-1 justify-center items-center mx-5">
-        <div className="flex-1 p-1">
-          <div className="flex justify-center">
-            <img src={home1} width="25" height="100"></img>
+
+      <div className="flex justify-center items-center">
+        <div className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4">
+          <div className="flex p-2">
+            <div className="text-picton-blue-500 mt-1">
+              <RiFlashlightFill />
+            </div>
+            <div>
+              Your payment took less than 3 seconds Invite your friends to the
+              blazing fast paytm UPI experience and earn $100 cashback
+            </div>
           </div>
-          <div className="flex justify-center text-xs text-white mt-2">
-            Home
-          </div>
-        </div>
-        <div className="flex-1 p-1">
-          <div className="flex justify-center">
-            <img src={scan} width="20" height="100"></img>
-          </div>
-          <div className="flex justify-center text-xs text-white mt-3">
-            Scan
-          </div>
-        </div>
-        <div className="flex-1 p-1">
-          <div className="flex justify-center">
-            <img src={cashback} width="30" height="100"></img>
-          </div>
-          <div className="flex justify-center text-xs text-white mt-2.5">
-            Cashback
+          <div className="rounded-full py-3 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32 m-3">
+            Invite and Earn
           </div>
         </div>
-        <div className="flex-1 p-1">
-          <div className="flex justify-center">
-            <img src={passbook} width="15" height="100"></img>
+      </div>
+
+      <div className="flex justify-center items-center">
+        <div className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4">
+          <div className="flex p-2">
+            <div className="text-picton-blue-500 mt-1">
+              <RiFlashlightFill />
+            </div>
+            <div>
+              Your payment took less than 3 seconds Invite your friends to the
+              blazing fast paytm UPI experience and earn $100 cashback
+            </div>
           </div>
-          <div className="flex justify-center text-xs text-white mt-2.5">
-            Passbook
+          <div className="rounded-full py-3 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32 m-3">
+            Invite and Earn
+          </div>
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center">
+        <div className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4">
+          <div className="flex p-2">
+            <div className="text-picton-blue-500 mt-1">
+              <RiFlashlightFill />
+            </div>
+            <div>
+              Your payment took less than 3 seconds Invite your friends to the
+              blazing fast paytm UPI experience and earn $100 cashback
+            </div>
+          </div>
+          <div className="rounded-full py-3 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32 m-3">
+            Invite and Earn
+          </div>
+        </div>
+      </div>
+
+      
+      <div className="border border-black sticky">
+        <div className=" flex rounded-full bg-deep-sapphire-500 text-white p-1 justify-center items-center mx-5">
+          <div className="flex-1 p-1">
+            <div className="flex justify-center">
+              <img src={home1} width="25" height="100"></img>
+            </div>
+            <div className="flex justify-center text-xs text-white mt-2">
+              Home
+            </div>
+          </div>
+          <div className="flex-1 p-1">
+            <div className="flex justify-center">
+              <img src={scan} width="20" height="100"></img>
+            </div>
+            <div className="flex justify-center text-xs text-white mt-3">
+              Scan
+            </div>
+          </div>
+          <div className="flex-1 p-1">
+            <div className="flex justify-center">
+              <img src={cashback} width="30" height="100"></img>
+            </div>
+            <div className="flex justify-center text-xs text-white mt-2.5">
+              Cashback
+            </div>
+          </div>
+          <div className="flex-1 p-1">
+            <div className="flex justify-center">
+              <img src={passbook} width="15" height="100"></img>
+            </div>
+            <div className="flex justify-center text-xs text-white mt-2.5">
+              Passbook
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
-
-{/* <video
-                  autoPlay
-                  loop
-                  muted
-                  style={{
-                    height: "30px",
-                    width: "30px",
-                  }}
-                >
-                  <source src={animation} type="video/gif"></source>
-                </video> */}
