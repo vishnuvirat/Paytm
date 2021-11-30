@@ -21,6 +21,7 @@ function App() {
     username: "",
     upid: "",
     amount: "",
+    refNo:"",
   });
 
   return (
@@ -38,6 +39,7 @@ function App() {
           amount={userRegistration.amount}
           upid={userRegistration.upid}
           username={userRegistration.username}
+          refNo={userRegistration.refNo}
           currTime={currTime}
           currDate={currDate}
           currMonth={currMonth}

@@ -26,7 +26,7 @@ export const Firstpage = ({
     setRecords([...records, newRecord]);
     console.log(records);
 
-    setUserRegistration({ username: "", upid: "", amount: "" });
+    setUserRegistration({ username: "", upid: "", amount: "", refNo: ""});
   };
 
   return (
@@ -43,7 +43,7 @@ export const Firstpage = ({
         ></input>
       </div>
       <div>
-        Enter the UPI :
+        Enter 10 digits UPI :
         <input
           type="text"
           autoComplete="off"
@@ -61,6 +61,17 @@ export const Firstpage = ({
           value={userRegistration.amount}
           name="amount"
           id="amount"
+          onChange={handleInput}
+        ></input>
+      </div>
+      <div>
+        Enter the first 4 digits of reference no:
+        <input
+          type="text"
+          autoComplete="off"
+          value={userRegistration.refNo}
+          name="refNo"
+          id="refNo"
           onChange={handleInput}
         ></input>
       </div>

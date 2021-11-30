@@ -19,6 +19,7 @@ export const Paytm = ({
   currDate,
   currMonth,
   playSound,
+  refNo,
 }) => {
   return (
     <div>
@@ -63,10 +64,13 @@ export const Paytm = ({
               <div className="ml-3">{amount}</div>
               <div className="flex justify-center items-center ml-2">
                 {playSound}
-                <img src={animation} style={{
-                  width:"30px",
-                  height:"30px"
-                }}></img>
+                <img
+                  src={animation}
+                  style={{
+                    width: "30px",
+                    height: "30px",
+                  }}
+                ></img>
               </div>
             </div>
             <div className="font-bold flex justify-center my-2">
@@ -80,7 +84,7 @@ export const Paytm = ({
             </div>
             <div className="flex text-picton-blue-500 justify-center">
               <div>Ref. No.</div>
-              <div className="ml-2">129794891920</div>
+              <div className="ml-2">{refNo}94891920</div>
               <div className="flex items-center mx-2">
                 <FaAngleDown size="1em" />
               </div>
@@ -113,59 +117,7 @@ export const Paytm = ({
         </div>
       </div>
 
-      <div className="flex justify-center items-center">
-        <div className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4">
-          <div className="flex p-2">
-            <div className="text-picton-blue-500 mt-1">
-              <RiFlashlightFill />
-            </div>
-            <div>
-              Your payment took less than 3 seconds Invite your friends to the
-              blazing fast paytm UPI experience and earn $100 cashback
-            </div>
-          </div>
-          <div className="rounded-full py-3 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32 m-3">
-            Invite and Earn
-          </div>
-        </div>
-      </div>
-
-      <div className="flex justify-center items-center">
-        <div className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4">
-          <div className="flex p-2">
-            <div className="text-picton-blue-500 mt-1">
-              <RiFlashlightFill />
-            </div>
-            <div>
-              Your payment took less than 3 seconds Invite your friends to the
-              blazing fast paytm UPI experience and earn $100 cashback
-            </div>
-          </div>
-          <div className="rounded-full py-3 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32 m-3">
-            Invite and Earn
-          </div>
-        </div>
-      </div>
-
-      <div className="flex justify-center items-center">
-        <div className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4">
-          <div className="flex p-2">
-            <div className="text-picton-blue-500 mt-1">
-              <RiFlashlightFill />
-            </div>
-            <div>
-              Your payment took less than 3 seconds Invite your friends to the
-              blazing fast paytm UPI experience and earn $100 cashback
-            </div>
-          </div>
-          <div className="rounded-full py-3 border-2 border-picton-blue-500 text-picton-blue-500 flex items-center justify-center w-32 m-3">
-            Invite and Earn
-          </div>
-        </div>
-      </div>
-
-      
-      <div className="border border-black sticky">
+      <div className="">
         <div className=" flex rounded-full bg-deep-sapphire-500 text-white p-1 justify-center items-center mx-5">
           <div className="flex-1 p-1">
             <div className="flex justify-center">
