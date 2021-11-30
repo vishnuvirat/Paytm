@@ -65,7 +65,6 @@ export const Firstpage = ({
         ></input>
       </div>
       <button onClick={gotoPaytm}>Submit</button>
-      <button>sound</button>
     </div>
   );
 };

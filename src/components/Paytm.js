@@ -8,16 +8,24 @@ import scan from "../assets/scan.svg";
 import cashback from "../assets/cashback.svg";
 import passbook from "../assets/passbook.svg";
 import { RiFlashlightFill } from "react-icons/ri";
-import animation from "../assets/videos/animation.mp4";
+import animation from "../assets/videos/animation.gif";
 
-export const Paytm = ({ username, upid, amount, gotoHome, currTime, currDate, currMonth, playSound }) => {
-
+export const Paytm = ({
+  username,
+  upid,
+  amount,
+  gotoHome,
+  currTime,
+  currDate,
+  currMonth,
+  playSound,
+}) => {
   return (
     <div>
       <div>
         <div className="flex justify-center p-2">
           <div className="flex justify-center items-center ml-2">
-            <FaArrowLeft size="1em" />
+            <FaArrowLeft size="1em" onClick={gotoHome} />
           </div>
           <div className="flex flex-1 justify-center">
             <img src={logo} width="100" height="1000"></img>
@@ -53,25 +61,21 @@ export const Paytm = ({ username, upid, amount, gotoHome, currTime, currDate, cu
             <div className="flex text-4xl font-bold justify-center">
               <div>&#x20b9;</div>
               <div className="ml-3">{amount}</div>
-              <div className="flex justify-center items-center ml-2">{playSound}
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  style={{
-                    height: "30px",
-                    width: "30px",
-                  }}
-                >
-                  <source src={animation} type="video/mp4"></source>
-                </video>
+              <div className="flex justify-center items-center ml-2">
+                {playSound}
+                <img src={animation} style={{
+                  width:"30px",
+                  height:"30px"
+                }}></img>
               </div>
             </div>
             <div className="font-bold flex justify-center my-2">
               PAYMENT SUCCESSFUL
             </div>
             <div className="flex text-xs justify-center my-2">
-              <div>{currDate} {currMonth},</div>
+              <div>
+                {currDate} {currMonth},
+              </div>
               <div className="ml-1">{currTime}</div>
             </div>
             <div className="flex text-picton-blue-500 justify-center">
@@ -93,9 +97,7 @@ export const Paytm = ({ username, upid, amount, gotoHome, currTime, currDate, cu
       </div>
 
       <div className="flex justify-center items-center">
-        <div
-          className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4"
-        >
+        <div className="border rounded-lg border-gray-200 mt-4 mb-10 mx-4">
           <div className="flex p-2">
             <div className="text-picton-blue-500 mt-1">
               <RiFlashlightFill />
@@ -144,11 +146,19 @@ export const Paytm = ({ username, upid, amount, gotoHome, currTime, currDate, cu
           </div>
         </div>
       </div>
-      <button type="button" onClick={gotoHome}>
-        Back
-      </button>
     </div>
   );
 };
 
 
+{/* <video
+                  autoPlay
+                  loop
+                  muted
+                  style={{
+                    height: "30px",
+                    width: "30px",
+                  }}
+                >
+                  <source src={animation} type="video/gif"></source>
+                </video> */}
