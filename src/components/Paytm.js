@@ -50,7 +50,7 @@ export const Paytm = ({
               </div>
             </div>
             <div className="flex justify-center font-bold text-2xl p-1">
-              {username}
+              {username}Biggest fraud app.Pulka bananey ko dekh raha hey
             </div>
             <div className="flex justify-center items-center">
               <div className="mr-2">
